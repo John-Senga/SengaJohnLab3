@@ -7,6 +7,7 @@
 
     <ImageView
         android:id="@+id/imageView2"
+        style="img"
         android:layout_width="371dp"
         android:layout_height="279dp"
         android:layout_marginEnd="8dp"
@@ -21,6 +22,7 @@
 
     <TextView
         android:id="@+id/textView7"
+        style="@style/text"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginEnd="8dp"
@@ -30,7 +32,6 @@
         android:layout_marginTop="8dp"
         android:gravity="center_vertical"
         android:text="168 Shopping Mall"
-        android:textColor="#000"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,27 +41,30 @@
 
     <TextView
         android:id="@+id/textView8"
+        style="@style/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
         android:text="Location: Sta. Elena St. | Binondo, Manila, Luzon, Philippines "
-        android:textColor="#000"
         android:textSize="18sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView9"
+        style="@style/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="20dp"
         android:text="Distance from UST: 3 km"
-        android:textColor="#000"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -69,8 +73,6 @@
         style="@style/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,9 +83,7 @@
         style="@style/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
